@@ -113,7 +113,7 @@ else
 int c;
 int recurselength()
 {
-    if(!isempty()&&temp!=NULL)
+    if(temp!=NULL)
    {
    c++;
    temp=temp->next;
@@ -144,7 +144,7 @@ printf("\n");
 int main()
 {
 int choice;
-printf("choice list:\n1.insertfirst\n2.insertlast\n3.insertmiddle\n4.display list\n5.odd numbers\n6.exit\n");
+printf("choice list:\n1.insertfirst\n2.insertlast\n3.insertmiddle\n4.display list\n5.lengthoflist\n6.exit\n");
 while(1)
 {
 printf("enter ur choice:\n");
